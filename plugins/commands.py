@@ -67,9 +67,12 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "ꜱᴜʙꜱᴄʀɪʙᴇ", url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
+            ],[
+                InlineKeyboardButton(
+                    "ᴊᴏɪɴ ɢʀᴏᴜᴘ", url=invite_link.invite_link
                 )
-            ]
+                ]
         ]
 
         if message.command[1] != "subscribe":
