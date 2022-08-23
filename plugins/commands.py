@@ -79,7 +79,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
+            text="**𝘗𝘭𝘦𝘢𝘴𝘦 𝘧𝘪𝘳𝘴𝘵 𝘚𝘶𝘣𝘴𝘤𝘳𝘪𝘣𝘦 𝘔𝘺 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 & 𝘑𝘰𝘪𝘯 𝘔𝘺 𝘎𝘳𝘰𝘶𝘱 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘉𝘰𝘵!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
